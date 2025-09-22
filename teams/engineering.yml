@@ -45,3 +45,5 @@ team_settings:
       policy_ids:
         - 86
 software:
+  packages:
+    - path: ../lib/macos/software/cloudflare-warp.yml
