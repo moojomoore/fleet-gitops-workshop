@@ -26,6 +26,9 @@ controls:
       - path: ../lib/macos/configuration-profiles/disable-bluetooth-file-sharing.mobileconfig
       - path: ../lib/macos/configuration-profiles/passcode-settings-ddm.json
   enable_disk_encryption: true
+  ipados_updates:
+    deadline: "2025-09-30"
+    minimum_version: "18.5"
 team_settings:
   secrets:
     - secret: "$FLEET_ENGINEERING_ENROLL_SECRET"
