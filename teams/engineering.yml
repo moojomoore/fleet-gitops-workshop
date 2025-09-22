@@ -46,4 +46,4 @@ team_settings:
         - 86
 software:
   packages:
-    - path: ../lib/macos/software/cloudflare-warp.yml
+    - path: ../lib/windows/software/cloudflare-warp.yml
